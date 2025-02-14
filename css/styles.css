@@ -4,6 +4,7 @@ body {
   color: #434455;
 }
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -161,10 +162,7 @@ img {
   align-items: center;
 }
 
-/* Logo için <a> stil ayarları */
-.logo-class {
-  margin-right: 76px;
-}
+
 
 /* <ul> stil ayarları */
 .nav-list,
