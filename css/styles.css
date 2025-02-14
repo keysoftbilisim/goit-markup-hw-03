@@ -157,7 +157,7 @@ img {
 }
 
 /* <nav> stil ayarları */
-.nav-class {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -165,13 +165,13 @@ img {
 
 
 /* <ul> stil ayarları */
-.nav-list,
-.address-list {
+.menu,
+.aadres_ul {
   display: flex;
   gap: 40px;
 }
 
 /* Listedeki maddeler */
-.list-item {
+.menu_li {
   padding: 24px 0;
 }
