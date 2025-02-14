@@ -166,7 +166,7 @@ img {
 
 /* <ul> stil ayarları */
 .menu,
-.aadres_ul {
+.adres_ul {
   display: flex;
   gap: 40px;
 }
