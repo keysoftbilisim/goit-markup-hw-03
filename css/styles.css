@@ -139,3 +139,41 @@ body {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
+img {
+  display: block;
+}
+/* <header> stil ayarları */
+.header-class {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/* <div> stil ayarları */
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* <nav> stil ayarları */
+.nav-class {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo için <a> stil ayarları */
+.logo-class {
+  margin-right: 76px;
+}
+
+/* <ul> stil ayarları */
+.nav-list,
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+/* Listedeki maddeler */
+.list-item {
+  padding: 24px 0;
+}
