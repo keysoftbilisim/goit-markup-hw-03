@@ -97,7 +97,7 @@ body {
 }
 .team {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 
 }
@@ -217,10 +217,19 @@ img {
   gap: 24px;
 }
 .list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .visually-hidden {
- display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section_four{
   padding: 120px 0;
@@ -233,7 +242,7 @@ img {
   row-gap: 48px;
 }
 .port{
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .portf{
   padding: 32px 16px;
