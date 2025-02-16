@@ -216,7 +216,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.list-item {
+.list_item {
   flex-basis: calc((100% - 72px) / 4);
 }
 .visually-hidden {
