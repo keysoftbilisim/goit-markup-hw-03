@@ -76,6 +76,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .baslik_ucp {
   line-height: 1.5;
@@ -139,7 +140,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display:inline-block;
+    display: inline-block;
     margin-bottom: 16px;
   }
 .footer{
@@ -187,4 +188,17 @@ img {
 /* Listedeki maddeler */
 .menu_li {
   padding: 24px 0;
+}
+.section_two{
+  padding: 120px 0;
+}
+.visually-hidden {
+  overflow: hidden;
+}
+.list{
+  display: flex;
+  gap: 24px;
+}
+.list_item{
+  width: calc((100% - 72px) / 4);
 }
