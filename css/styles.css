@@ -211,7 +211,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.list_item {
+.list .list_item {
   width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
