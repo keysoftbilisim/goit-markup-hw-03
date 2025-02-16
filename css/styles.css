@@ -242,7 +242,7 @@ img {
   row-gap: 48px;
 }
 .port{
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4 );
 }
 .portf{
   padding: 32px 16px;
