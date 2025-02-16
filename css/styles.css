@@ -95,11 +95,14 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.team_ul.team {
-  background-color: #ffffff;
+.team_ul .team {
   flex-basis: calc((100% - 72px) / 4);
+}
+.team{
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
+
 .team_ul {
   display: flex;
   gap: 24px;
