@@ -95,12 +95,11 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.team_ul .team {
-  flex-basis: calc((100% - 72px) / 4);
-}
+
 .team{
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team_ul {
@@ -165,6 +164,7 @@ body {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: inline-block;
 }
 
 .footer_text {
@@ -172,6 +172,7 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  display: inline-block;
 }
 img {
   display: block;
@@ -214,7 +215,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.list .list_item {
+.list_item {
   width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
@@ -238,7 +239,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio .port {
+.port {
   flex-basis: calc((100% - 72px) / 4);
 }
 .portf {
