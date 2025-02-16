@@ -140,8 +140,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
   }
 .footer{
     background-color: #2e2f42;
@@ -192,13 +192,23 @@ img {
 .section_two{
   padding: 120px 0;
 }
-.visually-hidden {
-  overflow: hidden;
-}
+
+
 .list{
   display: flex;
   gap: 24px;
 }
-.list_item{
-  flex-basis: calc((100% - 72px) / 4)
+.list-item {
+  width: calc((100% - 72px) / 4);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  /* Modern yöntem */
+  border: 0;
 }
