@@ -59,7 +59,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  display:block;
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -99,16 +99,14 @@ body {
   background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-
 }
-.team_ul{
-   display: flex;
-   gap: 24px;
+.team_ul {
+  display: flex;
+  gap: 24px;
 }
-.team_h{
+.team_h {
   padding: 32px 0;
 }
-
 
 .name {
   font-size: 20px;
@@ -125,52 +123,52 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.h_two{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
+.h_two {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
-.portname{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.portname {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.portnamep{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.portnamep {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.footer-logo-second{
-    color: #f4f4fd;
+.footer-logo-second {
+  color: #f4f4fd;
 }
-.footer-logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    display: inline-block;
-    margin-bottom: 16px;
-  }
-.footer{
-    background-color: #2e2f42;
-    padding: 100px 0;
+.footer_logo {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+}
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
 }
 
-.footer-text{
-    line-height: 1.5;
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-    max-width: 264px;
+.footer_text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
 }
 img {
   display: block;
@@ -194,8 +192,6 @@ img {
   align-items: center;
 }
 
-
-
 /* <ul> stil ayarları */
 .menu,
 .adres_ul {
@@ -207,12 +203,11 @@ img {
 .menu_li {
   padding: 24px 0;
 }
-.section_two{
+.section_two {
   padding: 120px 0;
 }
 
-
-.list{
+.list {
   display: flex;
   gap: 24px;
 }
@@ -231,20 +226,19 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section_four{
+.section_four {
   padding: 120px 0;
-
 }
-.portfolio{
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.port{
-  flex-basis: calc((100% - 72px) / 6 );
+.port {
+  flex-basis: calc((100% - 72px) / 6);
 }
-.portf{
+.portf {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
