@@ -84,6 +84,7 @@ body {
 }
 .section_three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .h_two {
   font-size: 36px;
@@ -92,21 +93,35 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
+.team_ul{
+  display: flex;
+  gap: 40px;
+}
+.team_h{
+  padding: 32px 0;
+}
+
+
 .name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .namep {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .h_two{
     font-size: 36px;
@@ -199,8 +214,15 @@ img {
   gap: 24px;
 }
 .list-item {
-  width: calc((100% - 72px) / 8);
+  width: calc((100% - 72px) / 4);
 }
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
