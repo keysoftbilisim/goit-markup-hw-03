@@ -231,6 +231,7 @@ img {
 .section_four {
   padding: 120px 0;
   margin-bottom: 8px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .portfolio {
   display: flex;
