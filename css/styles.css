@@ -125,14 +125,17 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .h_two {
+  margin-bottom: 72px;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  color: #2E2F42;
+  font-style: normal;
 }
 .portname {
   font-weight: 500;
