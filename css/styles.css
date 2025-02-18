@@ -3,6 +3,11 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px
+}
 .logo {
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
@@ -41,16 +46,17 @@ body {
   color: #404bbf;
 }
 .section_one {
-  background-color: #2e2f42;
+  background-color: #2E2F42;
+  color: #ffffff;
   padding: 188px 0;
 }
 .h_one {
-    max-width: 496px;
-    color: #ffffff;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+  max-width: 496px;
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .but{
     display: block;
