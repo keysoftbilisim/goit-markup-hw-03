@@ -184,25 +184,26 @@ a {
 img {
   display: block;
 }
-/* <header> stil ayarları */
+
 .header-class {
   border-bottom: 1px solid #e7e9fc;
 }
 
-/* <nav> stil ayarları */
 .nav {
   display: flex;
   align-items: center;
 }
 
-/* <ul> stil ayarları */
-.menu,
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .adres_ul {
   display: flex;
   gap: 40px;
 }
 
-/* Listedeki maddeler */
 .menu_li {
   padding: 24px 0;
 }
