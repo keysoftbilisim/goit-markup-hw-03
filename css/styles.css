@@ -10,12 +10,13 @@ ol {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
 .container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
-  display: flex;
-  justify-content: center;
 }
 
 .logo {
