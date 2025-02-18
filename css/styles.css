@@ -188,14 +188,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-/* <div> stil ayarları */
-.container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 /* <nav> stil ayarları */
 .nav {
   display: flex;
@@ -263,12 +255,7 @@ img {
   list-style-type: none;
   flex-basis: calc((100% - 72px) / 4);
 }
-.port.portf {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
+
 .h_two {
   font-weight: 500;
   font-size: 36px;
