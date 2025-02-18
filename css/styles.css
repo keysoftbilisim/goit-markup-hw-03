@@ -164,7 +164,7 @@ body {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
+  
 }
 
 .footer_text {
@@ -172,7 +172,7 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  display: inline-block;
+  
 }
 img {
   display: block;
