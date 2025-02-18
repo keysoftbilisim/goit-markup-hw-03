@@ -250,3 +250,7 @@ img {
 .section_two .list .list_item {
   width: calc((100% - 72px) / 4);
 }
+.list_item {
+  width: calc((100% - 72px) / 4);
+  list-style-type: none;
+  text-decoration: none;
