@@ -238,7 +238,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
-.section_four.portfolio.port {
+.section_four .portfolio .port {
   flex-basis: calc((100% - 72px) / 4);
 }
 .portf {
