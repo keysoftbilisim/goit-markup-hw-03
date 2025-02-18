@@ -9,7 +9,9 @@ ol {
   padding: 0;
   list-style-type: none;
 }
-
+.header-container {
+  display: flex;
+}
 a {
   text-decoration: none;
 }
