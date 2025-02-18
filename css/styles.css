@@ -122,11 +122,11 @@ ol {
   display: flex;
   gap: 24px;
 }
-.team_h {
+.team_div {
   padding: 32px 0;
 }
 
-.name {
+.team-name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -258,10 +258,10 @@ img {
   row-gap: 48px;
 }
 
-.port {
+.portli {
   text-decoration: none;
   list-style-type: none;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .port.portf {
   padding: 32px 16px;
