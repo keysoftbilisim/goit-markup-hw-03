@@ -237,7 +237,6 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
-
 .list_item {
   width: calc((100% - 72px) / 4);
   list-style-type: none;
@@ -272,12 +271,11 @@ img {
   margin-bottom: 72px;
 }
 .portnamep {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  font-style: normal;
+  color: #434455;
 }
 .portfolio-p {
   font-weight: normal;
