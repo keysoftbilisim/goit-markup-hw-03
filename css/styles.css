@@ -235,7 +235,7 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  margin-bottom: 8px !important;
 }
 
 .list_item {
@@ -245,7 +245,6 @@ img {
 }
 .section_four {
   padding: 120px 0;
-  margin-bottom: 8px;
 }
 
 .portfolio {
