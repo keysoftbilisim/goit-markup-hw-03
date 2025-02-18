@@ -12,7 +12,9 @@ ul,ol {
 .container {
   margin: 0 auto;
   width: 1158px;
-  padding: 0 15px
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
