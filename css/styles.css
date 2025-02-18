@@ -151,7 +151,6 @@ body {
   color: #f4f4fd;
 }
 .footer_logo {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -160,6 +159,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: :inline-block;
 }
 .footer {
   background-color: #2e2f42;
@@ -230,6 +230,7 @@ img {
 }
 .section_four {
   padding: 120px 0;
+  margin-bottom: 8px;
 }
 .portfolio {
   display: flex;
