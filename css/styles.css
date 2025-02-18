@@ -231,12 +231,6 @@ img {
   overflow: hidden;
 }
 
-.portli .portf {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 108px;
-}
 .list_item {
   width: calc((100% - 72px) / 4);
   list-style-type: none;
@@ -283,4 +277,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portf {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
