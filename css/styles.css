@@ -231,11 +231,11 @@ img {
   overflow: hidden;
 }
 
-.section_four .portf {
+.portli .portf {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  margin-bottom: 108px;
 }
 .list_item {
   width: calc((100% - 72px) / 4);
