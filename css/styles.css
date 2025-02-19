@@ -152,20 +152,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
+}
 
-.portname {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.portnamep {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 .footer-logo-second {
   color: #f4f4fd;
 }
@@ -230,54 +218,6 @@ img {
   width: calc((100% - 72px) / 4);
   list-style-type: none;
   text-decoration: none;
-}
-.section_four {
-  padding: 120px 0;
-}
-
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.portli {
-  text-decoration: none;
-  list-style-type: none;
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.h_two {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  font-style: normal;
-  margin-bottom: 72px;
-}
-.portnamep {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.portfolio-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.portf {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
 }
 
 .visually-hidden {
