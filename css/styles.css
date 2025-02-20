@@ -55,6 +55,7 @@ a {
 }
 .adres {
   font-style: normal;
+  margin-left: auto;
 }
 .adlink_ {
   line-height: 1.5;
@@ -200,7 +201,6 @@ img {
 .adres_ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 40px;
 }
 
